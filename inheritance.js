@@ -8,15 +8,17 @@ class Vehicle{
     }
 }
 
+// don not need to use function name 
+
 class Bus extends Vehicle{
     constructor(name, price, seat, ticketPrice){
-        super(name, price);
+        super(name, price);   //upper level
         this.seat = seat;
         this.ticketPrice = ticketPrice;
     }
 
 }
-
+// new keyword
 class Truck extends Vehicle{
     constructor(name, price, load){
         super(name, price);

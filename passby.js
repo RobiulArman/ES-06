@@ -1,6 +1,6 @@
 // primitive types are pass by value
 
-let num1 = 5;
+let num1 = 6;
 let num2 = 7;
 
 function multiply(a, b){
